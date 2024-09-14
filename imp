@@ -1,0 +1,5 @@
+1.php spark serve
+2. php spark make:migration create_posts_table
+3.php spark make:migration create_posts_table
+4.php spark make:model PostModel
+5.php spark migrate
