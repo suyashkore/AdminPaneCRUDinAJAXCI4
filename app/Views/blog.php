@@ -121,8 +121,8 @@ footer {
 <body>
     <header class="header">
         <div class="header-content">
-            <h1>Admin Panel</h1>
-            <li><a href="<?= base_url('blog') ?>">Blog</a></li>
+            <h1>Blogs</h1>
+            
             <div class="user-info">
                 <span>Welcome, Admin</span>
                 <a href="#logout" class="logout">Logout</a>
@@ -147,7 +147,7 @@ footer {
     <div class="modal-dialog modal-dialog-centered modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Add New Post</h5>
+          <!-- <h5 class="modal-title" id="staticBackdropLabel">Add New Post</h5> -->
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <form action="#" method="POST" enctype="multipart/form-data" id="add_post_form" novalidate>
@@ -177,8 +177,8 @@ footer {
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="submit" class="btn btn-primary" id="add_post_btn">Add Post</button>
+            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary" id="add_post_btn">Add Post</button> -->
           </div>
         </form>
       </div>

@@ -134,6 +134,7 @@
             <h2>Navigation</h2>
             <ul>
                 <li><a href="<?= base_url('index') ?>">Users</a></li>
+                <li><a href="<?= base_url('blog') ?>">Blog</a></li>
                 <li><a href="#settings">Settings</a></li>
                 <li><a href="#logout">Logout</a></li>
             </ul>

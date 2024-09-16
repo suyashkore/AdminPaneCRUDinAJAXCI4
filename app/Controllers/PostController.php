@@ -11,6 +11,10 @@ class PostController extends BaseController {
         return view('index');
     }
 
+    public function blog() {
+        return view('blog');
+    }
+
     // Handle add new post ajax request
     public function add() {
         $file = $this->request->getFile('file');
